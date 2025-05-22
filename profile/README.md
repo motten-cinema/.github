@@ -1,83 +1,68 @@
-```
-   M O V I E   R E S E R V A T I O N   S Y S T E M  🎞️
-   JAVA + JDBC 기반 콘솔 영화 예매 프로젝트
-   KB IT's Your Life 6기 · 17회차 · 2팀 '못된 고양이' 🐾
-```
+<h1 align="center">🎞️ M O V I E &nbsp; R E S E R V A T I O N &nbsp; S Y S T E M</h1>
+<p align="center"><b>JAVA + JDBC 기반 콘솔 영화 예매 프로그램</b><br>
+<i>KB IT's Your Life 6기 · 17회차 · 2팀 <b>못된 시네마</b> 🐾</i></p>
 
 ---
 
-## 🎯 프로젝트 소개
+## 📌 프로젝트 개요
 
-> 감성 콘솔 기반 예매 시스템!  
-> 영화 정보 조회부터 좌석 선택, 결제까지 한 번에 🎟  
-> 도트 게임 스타일로 돌아온 CLI 예매 시스템입니다.
+**못된 시네마**는 Java와 JDBC를 활용해 제작한  
+**콘솔 기반 영화 예매 시스템**입니다.  
+직관적인 CLI UI와 직렬화된 흐름으로 예매 기능을 구성하고,  
+MySQL과의 연동을 통해 실제 DB 저장/조회가 가능한 구조로 설계되었습니다.
 
-- 기간: 2025.03 ~ 2025.06
-- 주최: KB IT's Your Life
-- 팀명: 못된 고양이 🐾
+### 🎯 목적
 
----
-
-## 🎮 기능 안내
-
-```
-┌────────────────────────────────────────────┐
-│ 🎬 영화 목록 확인                         │
-│ 📆 상영 날짜 및 시간 선택                 │
-│ 💺 좌석 선택 및 중복 방지 확인            │
-│ 💳 결제 완료 후 예매 저장                │
-│ 🔐 관리자 기능 (전체 예매 현황 확인)     │
-└────────────────────────────────────────────┘
-```
+- Java 기초 및 DB 연동 실습 심화
+- 팀 단위 개발 및 협업 경험 체득
+- 실무에 가까운 로직 설계 및 코드 구현
 
 ---
 
-## 👾 팀원 정보
+## 🚀 핵심 기능
 
-| 이름     | GitHub 프로필                                      |
-|----------|-----------------------------------------------------|
-| 김원영   | [@iamwonyoungkim](https://github.com/iamwonyoungkim) |
-| 김하나   | [@kimhana11](https://github.com/kimhana11)           |
-| 최연우   | [@rryunn](https://github.com/rryunn)                 |
-| 오태준   | [@taejun0](https://github.com/taejun0)               |
-| 소영재   | [@YoungjaeSo](https://github.com/YoungjaeSo)         |
-
----
-
-## 🛠 기술 스택
-
-```
-┌───────────────┬──────────────────────────────┐
-│ Language      │ Java 17                      │
-│ DB 연동       │ MySQL + JDBC                 │
-│ IDE           │ IntelliJ / VSCode            │
-│ 협업 도구     │ GitHub / Notion              │
-│ 운영체제       │ macOS / Windows              │
-└───────────────┴──────────────────────────────┘
-```
+| 기능 | 설명 |
+|------|------|
+| 🎬 영화 목록 조회 | 상영 중인 영화 리스트와 상세 정보 제공 |
+| 📆 날짜 및 시간 선택 | 사용자가 원하는 날짜와 상영시간 선택 가능 |
+| 💺 좌석 선택 | 실시간 잔여 좌석 조회 및 중복 방지 처리 |
+| 💳 예매 확정 | 결제 입력을 통한 예매 완료 및 정보 저장 |
+| 🔐 관리자 모드 | 전체 예매 내역 조회, 초기화, 필터링 기능 제공 |
 
 ---
 
-## 🧩 ERD / SQL
+## 👨‍👩‍👧‍👦 팀원 소개 (못된 시네마 🐾)
 
-> 📌 ERD와 테이블 명세는 추후 업데이트될 예정입니다.  
-> DB 연결 후 실행 가능한 SQL 쿼리도 함께 정리 예정입니다.
-
----
-
-## 🧸 Special Thanks
-
-```
-못된 고양이는 귀엽지만, 개발은 진지하게!
-
-이 프로젝트는 CLI 개발에 대한 실전 감각과
-JDBC 연동 경험을 쌓기 위한 소중한 시간이었다. 😸
-
-복고 감성 + 콘솔 예매 시스템 = 최고 조합 🎮
-```
+| 이름 | GitHub | 프로필 |
+|------|--------|--------|
+| 김원영 | [`@iamwonyoungkim`](https://github.com/iamwonyoungkim) | <img src="https://avatars.githubusercontent.com/u/90565929?v=4" width="100" /> |
+| 김하나 | [`@kimhana11`](https://github.com/kimhana11) | <img src="https://avatars.githubusercontent.com/u/117277958?v=4" width="100" /> |
+| 최연우 | [`@rryunn`](https://github.com/rryunn) | <img src="https://avatars.githubusercontent.com/u/122458948?v=4" width="100" /> |
+| 오태준 | [`@taejun0`](https://github.com/taejun0) | <img src="https://avatars.githubusercontent.com/u/164321668?v=4" width="100" /> |
+| 소영재 | [`@YoungjaeSo`](https://github.com/YoungjaeSo) | <img src="https://avatars.githubusercontent.com/u/188574249?v=4" width="100" /> |
 
 ---
 
-```
-     made with ☕ + ❤️ by Team 못된 고양이
-```
+## 🛠️ 사용 기술
+
+| 분야 | 기술 |
+|------|------|
+| Language | Java 17 |
+| DB 연동 | JDBC, MySQL 8.x |
+| 개발 환경 | IntelliJ IDEA / VSCode |
+| 운영체제 | macOS, Windows 혼합 개발 |
+| 협업 도구 | GitHub, Notion |
+
+---
+
+## 🗂 ERD & DB 설계
+
+📌 **ERD 및 테이블 구조도**는 추후 업로드 예정입니다.  
+SQL 스키마, 초기 데이터, 쿼리 예시까지 함께 포함할 계획입니다.
+
+---
+
+## 🎨 예매 시나리오 예시 (콘솔 흐름)
+
+```plaintext
+[영화 선택] → [날짜 선택] → [시간 선택] → [좌석 선택] → [결제] → [완료]
